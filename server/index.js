@@ -2,7 +2,11 @@
 import express from 'express'
 const app = express();
 
+//cors
+import cors from 'cors'
+
 app.use(express.json());
+app.use(cors());
 
 //import routes
 import {reservationRouter} from './routers/reservationRoutes.js'
