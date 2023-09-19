@@ -12,6 +12,9 @@ The frontend of the application is built using Next.js, a powerful React framewo
 
 ### Backend: 
 The backend is an Express.js server, a fast, unopinionated, and minimalist web framework for Node.js.
+#### Redis
+#### Node
+#### Express
 
 ### Database: 
 The system uses Supabase, an open-source Firebase alternative, for database operations. It provides a simple and intuitive API for interacting with the database.
